@@ -1,5 +1,5 @@
 
-# In Terminal go to file path cd and then (python model.py) run this command or
+# In Terminal go to file path cd and then (python numPy.py) run this command or
 # In vs code right top click run 
 
 #   Numpy in python curse notes
