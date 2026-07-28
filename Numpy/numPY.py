@@ -173,6 +173,7 @@ print(seprater)
 print('Broadcasting in numpy')
 print('Broadcasting is a powerful mechanism that allows numpy to work with arrays of different shapes when performing arithmetic operations. It automatically expands the smaller array to match the shape of the larger array without making unnecessary copies of data.')
 print('allowing user to perform operations on differnet lenght of arrays')
+print('(3x1) + (2x5) will work because 1 and it will work if right side values are same or 1')
 var11=NP.array([1,2,3])
 print(var11,'1 dimension array (1 x 3 ) 1 row 3 col ')
 var12=NP.array([[1],[2],[3]])
@@ -182,10 +183,12 @@ var13=NP.array([1,2,3,4])
 print(var11 + var12,'Broadcasting in numpy 1D and 3D array addition')
 
 
-
-
-
-
+# Indexing in Arrays 
+print(seprater)
+print('Indexing in arrays of 1d and 2d nad 3d and so on ')
+print('varx[0] 1d array, varx[0,1] 2d array indexing , varx[0,1,5] 3d array indexing ')
+print(var11[2],'1d array in here 3 gets printed because indexing starts from 0')
+print(var12[1,0],'2d array in here 2 gets printed because indexing starts from 0')
 
 
 
