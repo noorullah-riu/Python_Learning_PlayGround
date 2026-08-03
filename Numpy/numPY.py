@@ -190,8 +190,11 @@ print('varx[0] 1d array, varx[0,1] 2d array indexing , varx[0,1,5] 3d array inde
 print(var11[2],'1d array in here 3 gets printed because indexing starts from 0')
 print(var12[1,0],'2d array in here 2 gets printed because indexing starts from 0')
 
-
-
+# Slicing in Arrays 
+print(seprater)
+print('slicing in array done by same as index but with : colon operator')
+print (var11[:2],'1d array slicing from 0 to 2')
+print (var11[1:3],'1d array slicing from 1 to 3')
 
 
 
